@@ -1,0 +1,39 @@
+{
+  "name": "npm-offline",
+  "description": "An npm registry proxy that uses your npm cache to retrieve modules, allowing for offline access to any modules you've previously installed pretty much ever.",
+  "version": "0.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "read-package-json": "^1.1.8",
+    "map-async": "^0.1.1",
+    "request": "^2.34.0",
+    "npmconf": "^0.1.14",
+    "semver": "^2.2.1",
+    "course": "0.0.1",
+    "sha": "^1.2.3"
+  },
+  "scripts": {
+    "start": "node server"
+  },
+  "author": "Hugh Kennedy <hughskennedy@gmail.com> (http://hughsk.io/)",
+  "license": "MIT",
+  "homepage": "http://hughsk.github.io/npm-offline",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/hughsk/npm-offline"
+  },
+  "bugs": {
+    "url": "https://github.com/hughsk/npm-offline/issues"
+  },
+  "keywords": [
+    "npm",
+    "offline",
+    "backup",
+    "cache",
+    "plan",
+    "previous",
+    "old",
+    "modules",
+    "install"
+  ]
+}
