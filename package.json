@@ -1,8 +1,11 @@
 {
   "name": "npm-offline",
   "description": "An npm registry proxy that uses your npm cache to retrieve modules, allowing for offline access to any modules you've previously installed pretty much ever.",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "main": "index.js",
+  "bin": {
+    "npm-offline": "./server.js"
+  },  
   "dependencies": {
     "read-package-json": "^1.1.8",
     "map-async": "^0.1.1",

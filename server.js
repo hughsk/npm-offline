@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 var npm = require('npmconf')
 var http = require('http')
 var cache = require('./')
