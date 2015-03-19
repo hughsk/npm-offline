@@ -45,7 +45,7 @@ npm config set registry http://localhost:12644/
 You can now switch between the local registry and the remote one using a single
 command:
 
-``` bash
+```
 npmrc local   # use local modules
 npmrc default # use the US registry
 ```
