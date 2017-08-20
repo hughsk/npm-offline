@@ -1,6 +1,8 @@
-# npm-offline [![Flattr this!](https://api.flattr.com/button/flattr-badge-large.png)](https://flattr.com/submit/auto?user_id=hughskennedy&url=http://github.com/hughsk/npm-offline&title=npm-offline&description=hughsk/npm-offline%20on%20GitHub&language=en_GB&tags=flattr,github,javascript&category=software)[![experimental](http://hughsk.github.io/stability-badges/dist/experimental.svg)](http://github.com/hughsk/stability-badges) #
+# npm-offline [![deprecated](http://hughsk.github.io/stability-badges/dist/deprecated.svg)](http://github.com/hughsk/stability-badges) #
 
 [![npm-offline](https://nodei.co/npm/npm-offline.png?mini=true)](https://nodei.co/npm/npm-offline)
+
+**Deprecated. Use `npm install --cache-min Ininity` instead! :)**
 
 An npm registry proxy that uses your npm cache to retrieve modules, allowing for offline access to any modules you've previously installed pretty much ever.
 
